@@ -7,7 +7,7 @@
   "build": "ng build",
   "watch": "ng build --watch --configuration development",
   "test": "ng test",
-  "deploy": "ng build && gh-pages -d dist/calculadora-plr-web/browser"
+"deploy": "ng build --base-href /calculadora-plr-web/ && gh-pages -d dist/calculadora-plr-web/browser"
 },
   "private": true,
   "dependencies": {
