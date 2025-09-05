@@ -98,7 +98,8 @@
      "deploy": {
     "builder": "angular-cli-ghpages:deploy",
      "options": {
-    "buildTarget": "calculadora-plr-web:build:production"
+    "buildTarget": "calculadora-plr-web:build:production",
+    "dir": "dist/calculadora-plr-web"
       }
       }
       }
